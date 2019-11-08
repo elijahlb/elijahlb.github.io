@@ -1,0 +1,110 @@
+#myname {
+    background-color: #4aaaa5;
+    width: 200px;
+    padding: 20px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-bottom: 0px;
+    margin-left: 16.2%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+/* Navigation Bar-----------------------------------------*/
+#navbar {
+    position:relative;
+    margin-top: 70px;
+    margin-bottom: -20px;
+    margin-right: 19%;
+    min-width:600px;
+}
+#navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#boxfloat {
+    padding-left: 32px;
+}
+li {
+    display: inline;
+}
+a:link, a:visited {
+    width: 120px;
+    text-align: center;
+    color: #777777;
+    padding: 4px;
+    text-decoration: none;
+}
+.navright {
+    padding-right: 4px;
+    border-right: solid 1px;
+}
+/* Navigation Bar End------------------------------------*/
+#aboutme {
+    color: #4aaaa5;
+    margin-left: 32px;
+    padding-top:20px;
+    border-bottom:7px solid #4aaaa5;
+    border-bottom-right-radius: 15px;
+}
+
+#myface {
+    width: 140px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    float: left;
+}
+
+#maincontainer {
+    width:100%;
+    border-top: solid 1px #777777;
+    border-bottom: solid 8px #4aaaa5;
+    background-image: url("../images/retro-furnish.png");
+    overflow:hidden;
+}
+
+#aboutmewrapper {
+    border-style: solid 2px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:white;
+    width: 62.5%; 
+    margin-left:18%;
+    margin-right:13.64%;
+    margin-bottom: 300px;
+}
+
+.sociallink{
+    height:25px;
+    width:25px;
+    margin-top:-30px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+hr {
+    width: 950px;
+}
+
+p {
+    line-height: 2;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    color: white;
+    padding-top: 40px;
+    flex-shrink: 0;
+}

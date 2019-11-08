@@ -1,0 +1,63 @@
+#portfolio {
+    color: #4aaaa5;
+    margin-left: 32px;
+    padding-top:20px;
+    border-bottom:7px solid #4aaaa5;
+    border-bottom-right-radius: 15px;
+}
+
+h4 {
+    position:absolute;
+    text-align: center;
+    background-color:#4aaaa5;
+    color:white;
+    padding:10px;
+    z-index:2;
+    width: 200px;
+    margin-left:20px;
+    margin-top:125px;
+}
+#bakeshop {
+    margin-left: 10px;
+}
+#dice {
+    margin-top:-15px;
+    margin-left: 10px;
+}
+
+#safari {
+    margin-top: -15px;
+    margin-left: 10px;
+}
+#nature {
+    position:absolute;
+    float:right;
+    margin-left:260px;
+    margin-top:-612px;
+}
+
+#parks {
+    position:absolute;
+    float:right;
+    margin-left:260px;
+    margin-top:-412px;
+}
+
+.picbox {
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+    border: 10px solid black;
+    border-radius:5px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.picbox:hover {
+    opacity: 0.3;
+  }
+  
+#aboutmewrapper {
+    overflow:scroll;
+}
